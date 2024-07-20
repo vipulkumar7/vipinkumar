@@ -140,10 +140,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_o18bfaf",
-        "template_a141avo",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        "sZ6V2W8pcEL1eLz4b"
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -165,7 +165,7 @@ const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
+          <ContactInput placeholder="Your Email" name="from_email_id" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
