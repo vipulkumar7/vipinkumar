@@ -1,4 +1,8 @@
 import React from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useTheme } from "styled-components";
+import { DiCssdeck } from "react-icons/di";
+import { FaBars } from "react-icons/fa";
 import {
   Nav,
   NavLink,
@@ -12,15 +16,18 @@ import {
   MobileMenu,
   MobileLink,
 } from "./NavbarStyledComponent";
-import { DiCssdeck } from "react-icons/di";
-import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
-// import { Close, CloseRounded } from '@mui/icons-material';
-import { useTheme } from "styled-components";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme();
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
+
+  if (pathname === "/") {
+    navigate("/vipinkumar.com");
+  }
+
   return (
     <Nav>
       <NavbarContainer>
