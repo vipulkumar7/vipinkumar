@@ -1,7 +1,7 @@
 {
   "name": "vipin-portfolio",
   "version": "0.1.0",
-  "homepage": "https://vipulkumar7.github.io/vipinkumar.com",
+  "homepage": "https://vipulkumar7.github.io/vipinkumar",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
