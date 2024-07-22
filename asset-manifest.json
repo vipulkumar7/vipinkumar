@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vipinkumar/static/css/main.bf538fe7.css",
-    "main.js": "/vipinkumar/static/js/main.f686721d.js",
+    "main.js": "/vipinkumar/static/js/main.fb78296a.js",
     "static/media/vipulImage.jpeg": "/vipinkumar/static/media/vipulImage.38818e8f54b4bd787eee.jpeg",
     "index.html": "/vipinkumar/index.html",
     "main.bf538fe7.css.map": "/vipinkumar/static/css/main.bf538fe7.css.map",
-    "main.f686721d.js.map": "/vipinkumar/static/js/main.f686721d.js.map"
+    "main.fb78296a.js.map": "/vipinkumar/static/js/main.fb78296a.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.f686721d.js"
+    "static/js/main.fb78296a.js"
   ]
 }
