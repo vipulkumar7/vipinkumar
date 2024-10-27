@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Vipin Kumar",
   roles: [
-    "Frontend Developer",
+    "MERN Stack Developer",
     "React JS Developer",
     "Next JS Developer",
     "UI/UX Designer",
